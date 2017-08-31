@@ -1,9 +1,10 @@
 .footer {
   background-color: $gray-lightest;
   padding: 0rem $spacer-x * 3;
-  line-height: $spacer-y * 6;
+  line-height: 3rem;
   color: $gray-light;
   text-align: center;
+  padding: 1rem;
 
   &__github-link {
     vertical-align: middle;
