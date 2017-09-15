@@ -188,7 +188,7 @@ public class Tehtavakirjanpito {
     }
 
     public void tulosta() {
-	this.tehdytTehtavat.keySet().stream(kayttaja -&gt; {
+	this.tehdytTehtavat.keySet().stream().forEach(kayttaja -&gt; {
 	    System.out.println(kayttaja + ": " + this.tehdytTehtavat.get(kayttaja));
 	});
     }
